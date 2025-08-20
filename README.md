@@ -36,3 +36,35 @@ The system suggests movies based on user preferences using **Content-Based Filte
 ┣ 📜 recommender.py # Recommendation logic
 ┣ 📜 requirements.txt # Python dependencies
 ┣ 📜 README.md # Project documentation
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/movie-recommendation-system.git
+   cd movie-recommendation-system
+
+2. Create virtual environment (optional but recommended)
+
+python -m venv venv
+source venv/bin/activate   # for Linux/Mac
+venv\Scripts\activate      # for Windows
+
+3. Install dependencies
+
+pip install -r requirements.txt
+
+4. Get TMDB API Key
+
+-> Create an account at TMDB
+
+-> Navigate to Settings > API > Create API Key
+
+-> Copy the key and add it in your code (config.py or directly in API calls)
+
+5. Run the application
+
+streamlit run app.py
